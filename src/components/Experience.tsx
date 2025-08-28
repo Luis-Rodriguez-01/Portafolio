@@ -7,7 +7,7 @@ const Experience = () => {
       title: "Especialista en Desarrollo Web Full Stack",
       company: "Empresa Privada",
       location: "Playa, Habana",
-      period: "Ene 2023 – Actualidad",
+      period: "Ene 2025 – Actualidad",
       achievements: [
         "Desarrollo de aplicaciones web modernas con React, optimizando rendimiento y experiencia de usuario",
         "Implementación de interfaces dinámicas con TailwindCSS y diseño centrado en usabilidad",
@@ -20,7 +20,7 @@ const Experience = () => {
       title: "Ingeniero en Desarrollo de Software Web",
       company: "UCI - Dirección de Proyectos Especiales",
       location: "La Lisa, Habana",
-      period: "May 2021 – Dic 2023",
+      period: "May 2023 – Dic 2024",
       achievements: [
         "Análisis de tráfico de sitios web mediante scripts en Java",
         "Desarrollo de microservicios con Spring Boot, conectando a bases de datos como MySQL e InfluxDB",

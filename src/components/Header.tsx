@@ -39,12 +39,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">AS</span>
+              <span className="text-white font-bold text-lg">LR</span>
             </div>
             <span className={`font-bold text-xl transition-colors ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              Andy Santana
+              Luis Rodriguez
             </span>
           </div>
 

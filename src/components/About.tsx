@@ -6,7 +6,7 @@ const About = () => {
     {
       icon: <Code className="w-8 h-8 text-blue-600" />,
       title: "Full Stack Developer",
-      description: "Especializado en React, Spring Boot y Django para soluciones completas"
+      description: "Especializado en React, Angular y Django para soluciones completas"
     },
     {
       icon: <Zap className="w-8 h-8 text-purple-600" />,
@@ -39,7 +39,7 @@ const About = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               Soy un <strong>Desarrollador Web Full Stack</strong> con sólida formación en Ingeniería Informática, 
-              especializado en crear soluciones tecnológicas escalables y eficientes. Con más de 4 años de experiencia, 
+              especializado en crear soluciones tecnológicas escalables y eficientes. Con más de 2 años de experiencia, 
               he desarrollado desde dashboards para monitoreo hasta plataformas de e-commerce y sistemas de reservas.
             </p>
             

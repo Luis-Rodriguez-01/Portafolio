@@ -11,9 +11,9 @@ const Footer = () => {
           <div className="text-center">
             <div className="flex justify-center items-center space-x-2 mb-6">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">AS</span>
+                <span className="text-white font-bold text-xl">LR</span>
               </div>
-              <span className="text-2xl font-bold">Andy Santana</span>
+              <span className="text-2xl font-bold">Luis Rodriguez</span>
             </div>
 
             <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
@@ -26,20 +26,20 @@ const Footer = () => {
                 href="mailto:santanaandyjesus7@gmail.com"
                 className="text-gray-300 hover:text-white transition-colors"
               >
-                santanaandyjesus7@gmail.com
+                luisyoisel.rodriguezcaballero@gmail.com
               </a>
               <a
-                href="tel:+5355359427"
+                href="tel:+5355553052"
                 className="text-gray-300 hover:text-white transition-colors"
               >
-                +53 5 5359427
+                +53 5 5553052
               </a>
             </div>
 
             <div className="border-t border-gray-800 pt-8">
               <div className="flex flex-col sm:flex-row items-center justify-between">
                 <p className="text-gray-400 text-sm mb-4 sm:mb-0">
-                  © {currentYear} Andy Jesús Santana Sánchez. Todos los derechos reservados.
+                  © {currentYear} Luis Yoisel Rodriguez Caballero. Todos los derechos reservados.
                 </p>
                 
                 <div className="flex items-center space-x-2 text-gray-400 text-sm">

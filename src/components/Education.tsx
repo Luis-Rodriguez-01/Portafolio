@@ -51,7 +51,7 @@ const Education = () => {
                   <div className="flex items-center space-x-3">
                     <Star className="w-5 h-5 text-green-500" />
                     <span className="text-gray-700">
-                      <strong>Graduación:</strong> Diciembre 2022
+                      <strong>Graduación:</strong> Diciembre 2024
                     </span>
                   </div>
                   

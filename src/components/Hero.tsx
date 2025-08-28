@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Github, Linkedin, Mail, Phone } from 'lucide-react';
+import { ArrowDown, Linkedin, Mail, Phone } from 'lucide-react';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -23,38 +23,38 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           {/* Profile Image Placeholder */}
           <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
-            <span className="text-white text-4xl font-bold">AS</span>
+            <span className="text-white text-4xl font-bold">LR</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-            Andy Jesús<br />
+            Luis Yoisel<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-              Santana Sánchez
+              Rodriguez Caballero
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
             Desarrollador Web Full Stack especializado en crear soluciones escalables y eficientes 
-            con más de 4 años de experiencia en React, Spring Boot y Django
+            con más de 4 años de experiencia en React, Angular, Django...
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-6 mb-12">
             <a
-              href="mailto:santanaandyjesus7@gmail.com"
+              href="mailto:luisyoisel.rodriguezcaballero@gmail.com"
               className="flex items-center space-x-2 text-blue-100 hover:text-white transition-colors"
             >
               <Mail size={20} />
-              <span>santanaandyjesus7@gmail.com</span>
+              <span>luisyoisel.rodriguezcaballero@gmail.com</span>
             </a>
             <a
-              href="tel:+5355359427"
+              href="tel:+5355553052"
               className="flex items-center space-x-2 text-blue-100 hover:text-white transition-colors"
             >
               <Phone size={20} />
-              <span>+53 5 5359427</span>
+              <span>+53 5 5553052</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/andyjesus"
+              href="https://www.linkedin.com/in/luis-yoisel-rodriguez-caballero-75598732a/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-blue-100 hover:text-white transition-colors"
@@ -72,7 +72,7 @@ const Hero = () => {
               Ver Mi Trabajo
             </button>
             <a
-              href="mailto:santanaandyjesus7@gmail.com"
+              href="mailto:luisyoisel.rodriguezcaballero@gmail.com"
               className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-slate-900 transition-all duration-300"
             >
               Contactar

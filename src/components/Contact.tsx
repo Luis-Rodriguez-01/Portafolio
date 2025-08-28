@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, Linkedin, MapPin, Send, CheckCircle } from 'lucide-react';
+import { Mail, Phone, Linkedin, Send, CheckCircle } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -31,27 +31,21 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      content: "santanaandyjesus7@gmail.com",
-      link: "mailto:santanaandyjesus7@gmail.com"
+      content: "luisyoisel.rodriguezcaballero@gmail.com",
+      link: "mailto:luisyoisel.rodriguezcaballero@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Teléfono",
-      content: "+53 5 5359427",
-      link: "tel:+5355359427"
+      content: "+53 5 5553052",
+      link: "tel:+5355553052"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       title: "LinkedIn",
-      content: "Andy Jesús Santana Sánchez",
-      link: "#"
+      content: "Luis Yoisel Rodriguez Caballero",
+      link: "https://www.linkedin.com/in/luis-yoisel-rodriguez-caballero-75598732a/"
     },
-    {
-      icon: <MapPin className="w-6 h-6" />,
-      title: "Ubicación",
-      content: "Cuba",
-      link: "#"
-    }
   ];
 
   return (
@@ -100,7 +94,7 @@ const Contact = () => {
                 <ul className="space-y-2 text-gray-700">
                   <li className="flex items-start space-x-2">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span>4+ años de experiencia en desarrollo Full Stack</span>
+                    <span>3+ años de experiencia en desarrollo Full Stack</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
