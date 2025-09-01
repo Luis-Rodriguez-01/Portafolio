@@ -10,7 +10,7 @@ const About = () => {
     },
     {
       icon: <Zap className="w-8 h-8 text-purple-600" />,
-      title: "4+ Años de Experiencia",
+      title: "3+ Años de Experiencia",
       description: "Desarrollando aplicaciones escalables y centradas en el usuario"
     },
     {
@@ -39,7 +39,7 @@ const About = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-12">
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               Soy un <strong>Desarrollador Web Full Stack</strong> con sólida formación en Ingeniería Informática, 
-              especializado en crear soluciones tecnológicas escalables y eficientes. Con más de 2 años de experiencia, 
+              especializado en crear soluciones tecnológicas escalables y eficientes. Con más de 3 años de experiencia, 
               he desarrollado desde dashboards para monitoreo hasta plataformas de e-commerce y sistemas de reservas.
             </p>
             
@@ -52,7 +52,7 @@ const About = () => {
             <p className="text-lg text-gray-700 leading-relaxed">
               Graduado de la Universidad de las Ciencias Informáticas (UCI) con un GPA de 4.35/5.00, 
               combino conocimientos sólidos en algoritmos y estructuras de datos con experiencia práctica 
-              en tecnologías modernas como React, Spring Boot, Django y metodologías SCRUM.
+              en tecnologías modernas como React, Angular, Django y metodologías SCRUM.
             </p>
           </div>
 

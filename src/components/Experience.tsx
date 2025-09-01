@@ -5,12 +5,12 @@ const Experience = () => {
   const experiences = [
     {
       title: "Especialista en Desarrollo Web Full Stack",
-      company: "Empresa Privada",
+      company: "DATYS soluciones tecnológicas",
       location: "Playa, Habana",
       period: "Ene 2025 – Actualidad",
       achievements: [
-        "Desarrollo de aplicaciones web modernas con React, optimizando rendimiento y experiencia de usuario",
-        "Implementación de interfaces dinámicas con TailwindCSS y diseño centrado en usabilidad",
+        "Desarrollo de aplicaciones web modernas con Angular Js + Grails, optimizando rendimiento y experiencia de usuario",
+        "Implementación de interfaces dinámicas con Material y diseño centrado en usabilidad",
         "Colaboración con equipos multidisciplinarios, aumentando en 25% la eficiencia del proyecto",
         "Gestión de proyectos bajo SCRUM, con entregas iterativas y pruebas continuas"
       ],

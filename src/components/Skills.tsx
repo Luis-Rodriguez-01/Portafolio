@@ -7,9 +7,9 @@ const Skills = () => {
       title: "Frontend",
       icon: <Code className="w-8 h-8 text-blue-600" />,
       skills: [
-        { name: "React", level: 95 },
-        { name: "React Native", level: 85 },
-        { name: "Angular", level: 80 },
+        { name: "React", level: 90 },
+        { name: "React Native", level: 75 },
+        { name: "Angular", level: 90 },
         { name: "JavaScript", level: 95 },
         { name: "TypeScript", level: 90 },
         { name: "HTML5", level: 95 },
@@ -21,11 +21,11 @@ const Skills = () => {
       title: "Backend",
       icon: <Settings className="w-8 h-8 text-green-600" />,
       skills: [
-        { name: "Spring Boot", level: 90 },
-        { name: "Django", level: 85 },
-        { name: "Node.js", level: 88 },
-        { name: "Express", level: 85 },
-        { name: "Grails", level: 75 }
+        { name: "Grails", level: 85 },
+        { name: "Django", level: 88 },
+        { name: "Node.js", level: 68 },
+        { name: "Express", level: 80 },
+        { name: "Spring Boot", level: 70 },
       ]
     },
     {

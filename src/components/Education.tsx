@@ -1,12 +1,14 @@
-import React from 'react';
-import { GraduationCap, Award, BookOpen, Star } from 'lucide-react';
+import React from "react";
+import { GraduationCap, Award, BookOpen, Star } from "lucide-react";
 
 const Education = () => {
   const courses = [
     "Estructuras de Datos y Algoritmos",
     "Programación Orientada a Objetos",
     "Inteligencia Artificial",
-    "Estadísticas Aplicadas"
+    "Estadísticas Aplicadas",
+    "Aprendizaje Automático",
+    "Programación Web"
   ];
 
   return (
@@ -19,7 +21,8 @@ const Education = () => {
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Formación académica sólida en Ingeniería Informática con especialización en Desarrollo Web
+              Formación académica sólida en Ingeniería Informática con
+              especialización en Desarrollo Web
             </p>
           </div>
 
@@ -35,7 +38,7 @@ const Education = () => {
                 <h3 className="text-3xl font-bold text-gray-900 mb-3">
                   Ingeniero en Ciencias Informáticas
                 </h3>
-                
+
                 <h4 className="text-xl text-blue-600 font-semibold mb-4">
                   Universidad de las Ciencias Informáticas (UCI)
                 </h4>
@@ -47,21 +50,21 @@ const Education = () => {
                       <strong>GPA:</strong> 4.35 / 5.00
                     </span>
                   </div>
-                  
+
                   <div className="flex items-center space-x-3">
                     <Star className="w-5 h-5 text-green-500" />
                     <span className="text-gray-700">
                       <strong>Graduación:</strong> Diciembre 2024
                     </span>
                   </div>
-                  
+
                   <div className="flex items-center space-x-3">
                     <BookOpen className="w-5 h-5 text-blue-500" />
                     <span className="text-gray-700">
                       <strong>Especialidad:</strong> Desarrollo Web
                     </span>
                   </div>
-                  
+
                   <div className="flex items-center space-x-3">
                     <GraduationCap className="w-5 h-5 text-purple-500" />
                     <span className="text-gray-700">
@@ -88,14 +91,6 @@ const Education = () => {
           </div>
 
           {/* Achievement Badge */}
-          <div className="mt-8 text-center">
-            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-50 to-orange-50 border border-yellow-200 rounded-full px-6 py-3">
-              <Award className="w-5 h-5 text-yellow-600" />
-              <span className="text-yellow-800 font-semibold">
-                Graduado con Excelencia Académica
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </section>

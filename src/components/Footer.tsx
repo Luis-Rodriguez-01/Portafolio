@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Code } from 'lucide-react';
+import { Code } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,7 +23,7 @@ const Footer = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 mb-8">
               <a
-                href="mailto:santanaandyjesus7@gmail.com"
+                href="mailto:luisyoisel.rodriguezcaballero@gmail.com"
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 luisyoisel.rodriguezcaballero@gmail.com
@@ -44,8 +44,6 @@ const Footer = () => {
                 
                 <div className="flex items-center space-x-2 text-gray-400 text-sm">
                   <span>Hecho con</span>
-                  <Heart className="w-4 h-4 text-red-500" />
-                  <span>y</span>
                   <Code className="w-4 h-4 text-blue-500" />
                   <span>en React</span>
                 </div>
