@@ -98,7 +98,7 @@ const Contact = () => {
                   </li>
                   <li className="flex items-start space-x-2">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span>Especializado en React, Spring Boot y Django</span>
+                    <span>Especializado en React, Angular, Spring Boot y Django</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />

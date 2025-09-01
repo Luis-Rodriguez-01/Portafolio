@@ -1,46 +1,46 @@
 import React from 'react';
-import { ExternalLink, Github, Users, TrendingUp, MapPin } from 'lucide-react';
+import { ExternalLink, Users, TrendingUp, MapPin } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
     {
-      title: "Sitio de Ventas Productos Artesanales",
-      description: "Aplicación e-commerce completa desarrollada con React, incluyendo autenticación de usuarios, carrito de compras y integración con APIs RESTful. Logré una reducción del 20% en la carga mediante optimización reactiva.",
-      technologies: ["React", "JavaScript", "RESTful APIs", "Authentication"],
+      title: "Catálogo de Productos Artesanales",
+      description: "Aplicación e-commerce completa desarrollada con React, integración con APIs RESTful. Logré una reducción del 20% en la carga mediante optimización reactiva.",
+      technologies: ["React","Django", "JavaScript", "TypeScript","Python", "RESTful APIs", "Tailwind CSS"],
       achievements: [
-        "Reducción de 20% en carga mediante optimización reactiva",
-        "Sistema completo de autenticación y carrito de compras",
-        "Desarrollado en colaboración con equipo de 3 personas"
+        "Reducción de 20% en carga mediante optimización reactiva",        
       ],
       icon: <TrendingUp className="w-6 h-6" />,
       type: "E-commerce",
-      team: true
-    },
-    {
-      title: "Sitio de Reservas para Playas y Campismos",
-      description: "Plataforma Full Stack desarrollada con React y Django para la gestión de reservas de destinos turísticos. Incluye mapas interactivos, sistema de filtros avanzados y gestión de datos con MySQL.",
-      technologies: ["React", "Django", "MySQL", "Interactive Maps"],
-      achievements: [
-        "Implementación de mapas interactivos para mejor UX",
-        "Sistema de filtros avanzados para búsqueda optimizada",
-        "Gestión completa de reservas y disponibilidad"
-      ],
-      icon: <MapPin className="w-6 h-6" />,
-      type: "Booking Platform",
-      team: false
+      team: false,
+      link: "https://luisyoiselrodriguezcaballero.pythonanywhere.com/"
     },
     {
       title: "Módulo de Gestión de Variables SEO",
-      description: "Sistema desarrollado para la UCI que permite el control y gestión de variables SEO para sitios web nacionales. Backend desarrollado con Slim y frontend con Angular.",
-      technologies: ["Angular", "Slim", "PHP", "SEO Management"],
+      description: "Módulo desarrollado para la UCI que permite medir y monitorizar nuevas metricas a los sitios web subscritos.",
+      technologies: ["Java","PHP", "SpingBoot", "MySQL","Slim", "Interactive Maps"],
+      achievements: [
+        "Implementación de variables SEO para sitios nacionales",
+        "Desarrollado en colaboración con equipo de 2 personas"
+      ],
+      icon: <MapPin className="w-6 h-6" />,
+      type: "SEO",
+      team: true,
+      link: "https://github.com/migueldeltorodev/Monitor.ModuloGestion"
+    },
+    {
+      title: "Automatización de paneles de variables SEO ",
+      description: "Sistema desarrollado para la UCI que permite el control y gestión de variables SEO para sitios web nacionales. Backend desarrollado con Slim.",
+      technologies: ["Slim", "PHP", "SEO Management"],
       achievements: [
         "Mejora del control de variables SEO para sitios nacionales",
         "Interfaz intuitiva para gestión de metadatos",
-        "Integración con múltiples sitios web institucionales"
+        "Integración con Telus herramienta de monitoreo"
       ],
       icon: <Users className="w-6 h-6" />,
-      type: "Web Management",
-      team: false
+      type: "SEO",
+      team: false,
+      link: "https://github.com/Luis-Rodriguez-01/Automatizaci-n-Tesis"
     }
   ];
 
@@ -75,7 +75,7 @@ const Projects = () => {
                       </span>
                     </div>
                     {project.team && (
-                      <Users size={20} className="text-gray-400" title="Proyecto en equipo" />
+                      <Users size={20} className="text-gray-400" aria-braillelabel="Proyecto en equipo" />
                     )}
                   </div>
 
@@ -112,7 +112,8 @@ const Projects = () => {
                     </div>
 
                     <div className="flex space-x-3">
-                      <button className="flex-1 flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 text-sm font-medium">
+                      <button onClick={() => window.open(project.link, "_blank")}
+                       className="flex-1 flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 text-sm font-medium">
                         <ExternalLink size={16} />
                         <span>Ver Detalles</span>
                       </button>
