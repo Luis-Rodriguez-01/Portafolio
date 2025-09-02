@@ -35,7 +35,7 @@ const Hero = () => {
 
           <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
             Desarrollador Web Full Stack especializado en crear soluciones escalables y eficientes 
-            con más de 4 años de experiencia en React, Angular, Django...
+            con más de 3 años de experiencia en React, Angular, Django...
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-6 mb-12">
