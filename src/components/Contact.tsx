@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, Linkedin, Send, CheckCircle } from 'lucide-react';
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -17,14 +18,28 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
-    setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
+
+    emailjs.send(
+      "service_y27c6gi",      
+      "template_2jznq9i",     
+      {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      },
+      "IF3nQWmmuDXQhVIWA"       
+    ).then(() => {
+      setIsSubmitted(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
-    }, 3000);
+
+      setTimeout(() => setIsSubmitted(false), 3000);
+    }).catch((error) => {
+      console.error("Error al enviar:", error);
+      alert("Ocurrió un error al enviar el mensaje. Intenta de nuevo.");
+    });
   };
 
   const contactInfo = [
