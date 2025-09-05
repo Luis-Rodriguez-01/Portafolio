@@ -29,6 +29,8 @@ const Contact = () => {
         from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
+        email: "luisyoisel.rodriguezcaballero@gmail.com", 
+        name: "Luis Yoisel Rodriguez Caballero"
       },
       "IF3nQWmmuDXQhVIWA"       
     ).then(() => {
