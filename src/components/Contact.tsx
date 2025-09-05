@@ -32,7 +32,7 @@ const Contact = () => {
         email: "luisyoisel.rodriguezcaballero@gmail.com", 
         name: "Luis Yoisel Rodriguez Caballero"
       },
-      "IF3nQWmmuDXQhVIWA"       
+      { publicKey: "IF3nQWmmuDXQhVIWA" }      
     ).then(() => {
       setIsSubmitted(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
