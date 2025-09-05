@@ -22,17 +22,17 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.send(
-      "service_y27c6gi",      
-      "template_2jznq9i",     
+      'service_y27c6gi',      
+      'template_2jznq9i',     
       {
         from_name: formData.name,
         from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
-        email: "luisyoisel.rodriguezcaballero@gmail.com", 
-        name: "Luis Yoisel Rodriguez Caballero"
+        email: 'luisyoisel.rodriguezcaballero@gmail.com', 
+        name: 'Luis Yoisel Rodriguez Caballero'
       },
-      { publicKey: "IF3nQWmmuDXQhVIWA" }      
+      { publicKey: 'IF3nQWmmuDXQhVIWA' }      
     ).then(() => {
       setIsSubmitted(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
