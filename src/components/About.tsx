@@ -50,7 +50,7 @@ const About = () => {
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              Graduado de la Universidad de las Ciencias Informáticas (UCI) con un GPA de 4.35/5.00, 
+              Graduado de la Universidad de las Ciencias Informáticas (UCI) con un GPA de 4.29/5.00, 
               combino conocimientos sólidos en algoritmos y estructuras de datos con experiencia práctica 
               en tecnologías modernas como React, Angular, Django y metodologías SCRUM.
             </p>

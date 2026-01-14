@@ -47,7 +47,7 @@ const Education = () => {
                   <div className="flex items-center space-x-3">
                     <Award className="w-5 h-5 text-yellow-500" />
                     <span className="text-gray-700">
-                      <strong>GPA:</strong> 4.35 / 5.00
+                      <strong>GPA:</strong> 4.29 / 5.00
                     </span>
                   </div>
 
