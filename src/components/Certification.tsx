@@ -44,7 +44,29 @@ const certifications = [
     type: "AI Development",
     team: false,
     link: `${import.meta.env.BASE_URL}/certificates/desarrollo-ia.pdf`
-  }
+  },
+  {
+  title: "Inteligencia Artificial: Fundamentos y Aplicaciones Prácticas",
+  description:
+    "Certificación orientada a la comprensión de la Inteligencia Artificial moderna, sus principios fundamentales y su aplicación práctica en distintos contextos profesionales y tecnológicos.",
+  technologies: [
+    "Inteligencia Artificial",
+    "IA Generativa",
+    "Prompt Engineering",
+    "Automatización asistida por IA",
+    "Herramientas de IA"
+  ],
+  achievements: [
+    "Comprensión de los conceptos fundamentales de la Inteligencia Artificial",
+    "Identificación de aplicaciones prácticas de la IA en entornos reales",
+    "Uso básico de herramientas de IA para optimizar tareas y procesos",
+    "Análisis del impacto de la IA en el ámbito profesional y tecnológico"
+  ],
+  icon: <Brain className="w-6 h-6" />,
+  type: "Applied AI",
+  team: false,
+  link: `${import.meta.env.BASE_URL}/certificates/certificado-jon.pdf`
+}
 ];
 
   return (
